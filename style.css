@@ -105,6 +105,19 @@ p {
   left: 100px;
 }
 
-@media (min-widht: 1440px) {
-  
+@media (min-width: 1000px) {
+body {
+   background-color: black;
+}
+
+  .wrapper {
+    margin: auto;
+    background-color: var(--c-very-light-gray);
+    width: 80%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+  }
+
+
 }
