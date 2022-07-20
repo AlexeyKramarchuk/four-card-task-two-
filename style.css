@@ -22,11 +22,11 @@
   background-color: black;
 }
 
-.conteiner {
+.container {
   margin: auto;
   padding: 20px;
   height: 100%;
-  width: 280px;
+  /* width: 280px; */
   background-color: var(--c-very-light-gray);
 }
 
@@ -114,10 +114,40 @@ body {
     margin: auto;
     background-color: var(--c-very-light-gray);
     width: 80%;
-    display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px 200px;
   }
+
+  .container {
+    w100%
+  }
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    grid-template-rows: repeat(4, 280px);
+    gap: 20px;
+}
+
+  .card-one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .card-two {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .card-three {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .card-four {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+  
+
 
 
 }
