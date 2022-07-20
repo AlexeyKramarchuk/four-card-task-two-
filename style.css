@@ -101,16 +101,20 @@ p {
   font-size: 10px;
 }
 
+.main-icon {
+  display: flex;
+  justify-content: end;
+  margin-top: 50px;
+  
+}
+
 .card-icon {
   margin: 30px;
   width: 50px;
-  position: relative;
-  top: 30px;
-  left: 100px;
 }
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
 body {
    background-color: black;
 }
